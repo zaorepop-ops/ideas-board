@@ -1,6 +1,6 @@
 // The Ideas Board service worker: offline app shell.
 // Pages: network first, falling back to the cached copy. Other files: cache first.
-const CACHE = 'ideas-board-v1';
+const CACHE = 'ideas-board-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
